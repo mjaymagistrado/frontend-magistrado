@@ -21,7 +21,7 @@ const Home = () => {
 
       <div style={styles.content}>
         <img
-          src="\src\assets\Image\pogi.jpg" 
+          src="https://scontent.fwnp1-1.fna.fbcdn.net/v/t39.30808-6/435689972_1504302563775362_9122925612745835284_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeEvrFU4wEdJc_b9SWO64-aVdTdTr0RonO91N1OvRGic76Ya1DafVRco_iRFyILreP47U-MYk7YdOOjPr-dBOJka&_nc_ohc=LkjBosIjnioQ7kNvgFaKD9t&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&_nc_gid=AWJZFi-IWPRwgvJrKwrYkeK&oh=00_AYCswxlgX9zc49fBPH0Gc7w5A6ZIGI-AKwCVgkadDA_z2Q&oe=6745FE7D" 
           alt="Profile"
           style={styles.image}
         />
