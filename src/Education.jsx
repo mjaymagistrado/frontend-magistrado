@@ -9,8 +9,8 @@ const Education = () => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        background: "linear-gradient(135deg, #B0BEC5, #E0E0E0, #FAFAFA)", // Gradient background
-        animation: "backgroundChange 10s infinite alternate", // Animation for color change
+        background: "linear-gradient(135deg, #B0BEC5, #E0E0E0, #FAFAFA)", 
+        animation: "backgroundChange 10s infinite alternate", 
       }}
     >
       <div
@@ -19,9 +19,9 @@ const Education = () => {
           width: "100%",
           textAlign: "center",
           padding: "20px",
-          backgroundColor: "#fff", // White background for the content section
+          backgroundColor: "#fff", 
           borderRadius: "10px",
-          boxShadow: "0 6px 20px rgba(0, 0, 0, 0.1)", // Soft shadow
+          boxShadow: "0 6px 20px rgba(0, 0, 0, 0.1)", 
         }}
       >
         <h1
@@ -45,27 +45,27 @@ const Education = () => {
             paddingBottom: "30px",
           }}
         >
-          {/* First Education Section: Calauag Elementary School */}
+         
           <div
             style={{
-              backgroundColor: "#f9f9f9", // Soft gray background for cards
+              backgroundColor: "#f9f9f9", 
               padding: "20px",
               borderRadius: "8px",
-              boxShadow: "0 4px 12px rgba(0, 0, 0, 0.15)", // Deeper shadow for cards
+              boxShadow: "0 4px 12px rgba(0, 0, 0, 0.15)", 
               display: "flex",
               alignItems: "center",
               gap: "20px",
             }}
           >
             <img
-              src="/src/assets/Image/calauag.jpg"
+              src="https://scontent.fwnp1-1.fna.fbcdn.net/v/t39.30808-6/467869311_1650737609131856_769701457792824986_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGWlA706Txb_zjmAZwwFMEgaTsb3LRhy9FpOxvctGHL0XTj2a-QKWY9kW9cC7EwQbFAhS6COQ8PGc8zysNVlynE&_nc_ohc=CmPgQ23MdlMQ7kNvgFNbamf&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&_nc_gid=A-hiXgZY2tY9u5XrPLq6Ktd&oh=00_AYDvmF2EJslN6kYcAygmLixtfxkwKuistg7Qd2YIJpcwcw&oe=6745F880"
               alt="Calauag Elementary Logo"
               style={{
                 width: "100px",
                 height: "100px",
                 borderRadius: "50%",
                 objectFit: "cover",
-                border: "3px solid #FFD700", // Gold border
+                border: "3px solid #FFD700", 
               }}
             />
             <div>
@@ -102,7 +102,7 @@ const Education = () => {
             </div>
           </div>
 
-          {/* Second Education Section: Camarines Sur National High School */}
+         
           <div
             style={{
               backgroundColor: "#f9f9f9",
@@ -115,7 +115,7 @@ const Education = () => {
             }}
           >
             <img
-              src="/src/assets/Image/CSHCS.jpg"
+              src="https://scontent.fwnp1-1.fna.fbcdn.net/v/t39.30808-6/468096699_1650737602465190_2981289244235767500_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeF8MHdhfc2X5tpYqlWMBOQpXwaGOJaHQVxfBoY4lodBXG165_UBy94X_t1zfv289jtLp9rZJdv_Z9pjgqXCayBQ&_nc_ohc=FDzUKWetsukQ7kNvgFne4li&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&_nc_gid=AOw1zPllECOf_PKl18dK361&oh=00_AYCGA2GlEjG303xm1HcvA2co3IvMi6oluFbPsxoPoB7n7A&oe=67460D90"
               alt="Camarines Sur National High School Logo"
               style={{
                 width: "100px",
@@ -159,7 +159,7 @@ const Education = () => {
             </div>
           </div>
 
-          {/* Third Education Section: Naga College Foundation */}
+          
           <div
             style={{
               backgroundColor: "#f9f9f9",
@@ -172,7 +172,7 @@ const Education = () => {
             }}
           >
             <img
-              src="/src/assets/Image/ncf.jpg"
+              src="https://scontent.fwnp1-1.fna.fbcdn.net/v/t39.30808-6/467871059_1650737599131857_3799183366586760531_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEezmPZWRf2kY9STvMA21yPS8UdL3fBKuVLxR0vd8Eq5bXTXUrCvz4gmfB5zxy3KL5CL2Q7nfaQFCBCjslXc2cq&_nc_ohc=v9GtGu8-6NQQ7kNvgH-U5cq&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&_nc_gid=AMzP_qgGmC2d6e0joNMp2oM&oh=00_AYB_A-YH2Lp0YEccvezAeNHrV1eQwz6ngpxCVMgCqrZB4w&oe=6745F8ED"
               alt="Naga College Foundation Logo"
               style={{
                 width: "100px",
