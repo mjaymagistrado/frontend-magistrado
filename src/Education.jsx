@@ -58,7 +58,7 @@ const Education = () => {
             }}
           >
             <img
-              src="https://scontent.fwnp1-1.fna.fbcdn.net/v/t39.30808-6/467869311_1650737609131856_769701457792824986_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGWlA706Txb_zjmAZwwFMEgaTsb3LRhy9FpOxvctGHL0XTj2a-QKWY9kW9cC7EwQbFAhS6COQ8PGc8zysNVlynE&_nc_ohc=CmPgQ23MdlMQ7kNvgFNbamf&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&_nc_gid=A-hiXgZY2tY9u5XrPLq6Ktd&oh=00_AYDvmF2EJslN6kYcAygmLixtfxkwKuistg7Qd2YIJpcwcw&oe=6745F880"
+              src="https://scontent.fmnl8-6.fna.fbcdn.net/v/t39.30808-6/467869311_1650737609131856_769701457792824986_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGWlA706Txb_zjmAZwwFMEgaTsb3LRhy9FpOxvctGHL0XTj2a-QKWY9kW9cC7EwQbFAhS6COQ8PGc8zysNVlynE&_nc_ohc=bSBweosfirwQ7kNvgHKLn7K&_nc_zt=23&_nc_ht=scontent.fmnl8-6.fna&_nc_gid=AZ_IxgIWaTjZjkQfkDjVCkE&oh=00_AYDAWx5q9YZCe4CP2egYxy0ouamdRR1tpb_57w2CY0a7uA&oe=674DA940"
               alt="Calauag Elementary Logo"
               style={{
                 width: "100px",
@@ -115,7 +115,7 @@ const Education = () => {
             }}
           >
             <img
-              src="https://scontent.fwnp1-1.fna.fbcdn.net/v/t39.30808-6/468096699_1650737602465190_2981289244235767500_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeF8MHdhfc2X5tpYqlWMBOQpXwaGOJaHQVxfBoY4lodBXG165_UBy94X_t1zfv289jtLp9rZJdv_Z9pjgqXCayBQ&_nc_ohc=FDzUKWetsukQ7kNvgFne4li&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&_nc_gid=AOw1zPllECOf_PKl18dK361&oh=00_AYCGA2GlEjG303xm1HcvA2co3IvMi6oluFbPsxoPoB7n7A&oe=67460D90"
+              src="https://scontent.fmnl8-5.fna.fbcdn.net/v/t39.30808-6/468096699_1650737602465190_2981289244235767500_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeF8MHdhfc2X5tpYqlWMBOQpXwaGOJaHQVxfBoY4lodBXG165_UBy94X_t1zfv289jtLp9rZJdv_Z9pjgqXCayBQ&_nc_ohc=B7EFQqZi3tUQ7kNvgGoR9M2&_nc_zt=23&_nc_ht=scontent.fmnl8-5.fna&_nc_gid=A6lBKW5oLviII3gPnEqicyn&oh=00_AYCFTdIFjVVjr-8ruM1jv78h5fRC4PaklQ22N48Gc9iyUA&oe=674D8610"
               alt="Camarines Sur National High School Logo"
               style={{
                 width: "100px",
