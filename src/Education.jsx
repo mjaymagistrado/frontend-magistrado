@@ -172,7 +172,7 @@ const Education = () => {
             }}
           >
             <img
-              src="https://scontent.fwnp1-1.fna.fbcdn.net/v/t39.30808-6/467871059_1650737599131857_3799183366586760531_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEezmPZWRf2kY9STvMA21yPS8UdL3fBKuVLxR0vd8Eq5bXTXUrCvz4gmfB5zxy3KL5CL2Q7nfaQFCBCjslXc2cq&_nc_ohc=v9GtGu8-6NQQ7kNvgH-U5cq&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&_nc_gid=AMzP_qgGmC2d6e0joNMp2oM&oh=00_AYB_A-YH2Lp0YEccvezAeNHrV1eQwz6ngpxCVMgCqrZB4w&oe=6745F8ED"
+              src="https://scontent.fmnl8-1.fna.fbcdn.net/v/t39.30808-6/467871059_1650737599131857_3799183366586760531_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEezmPZWRf2kY9STvMA21yPS8UdL3fBKuVLxR0vd8Eq5bXTXUrCvz4gmfB5zxy3KL5CL2Q7nfaQFCBCjslXc2cq&_nc_ohc=2fVoH9Q8vvQQ7kNvgGuC_eu&_nc_zt=23&_nc_ht=scontent.fmnl8-1.fna&_nc_gid=ASosmkHteZylck6LPBylPut&oh=00_AYAt7ggdBLhUSTS5-O5r8SV6-iSNVEqsYLbi4YA74S3DNw&oe=674DA9AD"
               alt="Naga College Foundation Logo"
               style={{
                 width: "100px",
