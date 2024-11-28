@@ -21,7 +21,7 @@ const Home = () => {
 
       <div style={styles.content}>
         <img
-          src="https://scontent.fwnp1-1.fna.fbcdn.net/v/t39.30808-6/467898436_1650737662465184_6430505723355916623_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGSqrypalw8HvSJvjBClCj5DjJ7PDpS7h0OMns8OlLuHYIV2i_NFT0dMnejb1y0ZPvDauobnT4Vah08pEZeF5z9&_nc_ohc=er7cpDuDCcAQ7kNvgETG679&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&_nc_gid=AeshF7nzXSerwJbT23RAkvv&oh=00_AYDHpoXr9Kxc6sCjFpf-kecIdEoMgEiYSr7zZZHte2M80g&oe=67461B9E" 
+          src="https://scontent.fmnl8-2.fna.fbcdn.net/v/t39.30808-6/467898436_1650737662465184_6430505723355916623_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGSqrypalw8HvSJvjBClCj5DjJ7PDpS7h0OMns8OlLuHYIV2i_NFT0dMnejb1y0ZPvDauobnT4Vah08pEZeF5z9&_nc_ohc=9BsDFufUmDYQ7kNvgHqtRzi&_nc_zt=23&_nc_ht=scontent.fmnl8-2.fna&_nc_gid=Afk5aLq3ayUO_lhi2vtJh6e&oh=00_AYBIx0VD9icstPf0F62P83eIS0u_63ilq55XUgUPIO-CLA&oe=674D941E" 
           alt="Profile"
           style={styles.image}
         />
