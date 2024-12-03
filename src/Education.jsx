@@ -58,7 +58,7 @@ const Education = () => {
             }}
           >
             <img
-              src="https://scontent.fmnl8-6.fna.fbcdn.net/v/t39.30808-6/467869311_1650737609131856_769701457792824986_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGWlA706Txb_zjmAZwwFMEgaTsb3LRhy9FpOxvctGHL0XTj2a-QKWY9kW9cC7EwQbFAhS6COQ8PGc8zysNVlynE&_nc_ohc=bSBweosfirwQ7kNvgHKLn7K&_nc_zt=23&_nc_ht=scontent.fmnl8-6.fna&_nc_gid=AZ_IxgIWaTjZjkQfkDjVCkE&oh=00_AYDAWx5q9YZCe4CP2egYxy0ouamdRR1tpb_57w2CY0a7uA&oe=674DA940"
+              src="https://scontent.fmnl25-5.fna.fbcdn.net/v/t39.30808-6/467869311_1650737609131856_769701457792824986_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=xcS_bOYNWRkQ7kNvgHI-SOp&_nc_zt=23&_nc_ht=scontent.fmnl25-5.fna&_nc_gid=AIP943MaEWEbnZC2vRVs62r&oh=00_AYByzgPBod_VvZF2muOtgeO0JVdjXwYE60Vj--9-PxbtpQ&oe=67540880"
               alt="Calauag Elementary Logo"
               style={{
                 width: "100px",
@@ -115,7 +115,7 @@ const Education = () => {
             }}
           >
             <img
-              src="https://scontent.fmnl8-5.fna.fbcdn.net/v/t39.30808-6/468096699_1650737602465190_2981289244235767500_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeF8MHdhfc2X5tpYqlWMBOQpXwaGOJaHQVxfBoY4lodBXG165_UBy94X_t1zfv289jtLp9rZJdv_Z9pjgqXCayBQ&_nc_ohc=B7EFQqZi3tUQ7kNvgGoR9M2&_nc_zt=23&_nc_ht=scontent.fmnl8-5.fna&_nc_gid=A6lBKW5oLviII3gPnEqicyn&oh=00_AYCFTdIFjVVjr-8ruM1jv78h5fRC4PaklQ22N48Gc9iyUA&oe=674D8610"
+              src="https://scontent.fmnl25-4.fna.fbcdn.net/v/t39.30808-6/468096699_1650737602465190_2981289244235767500_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=epnzsuinXbUQ7kNvgF3L4Q7&_nc_zt=23&_nc_ht=scontent.fmnl25-4.fna&_nc_gid=ADHSg1Lggo8cz1OJDrf1yVh&oh=00_AYC0Zwmj-3UZjj2jINghsOImAjFED-gMVE6NXN_ISiAygg&oe=67541D90"
               alt="Camarines Sur National High School Logo"
               style={{
                 width: "100px",
@@ -172,7 +172,7 @@ const Education = () => {
             }}
           >
             <img
-              src="https://scontent.fmnl8-1.fna.fbcdn.net/v/t39.30808-6/467871059_1650737599131857_3799183366586760531_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEezmPZWRf2kY9STvMA21yPS8UdL3fBKuVLxR0vd8Eq5bXTXUrCvz4gmfB5zxy3KL5CL2Q7nfaQFCBCjslXc2cq&_nc_ohc=2fVoH9Q8vvQQ7kNvgGuC_eu&_nc_zt=23&_nc_ht=scontent.fmnl8-1.fna&_nc_gid=ASosmkHteZylck6LPBylPut&oh=00_AYAt7ggdBLhUSTS5-O5r8SV6-iSNVEqsYLbi4YA74S3DNw&oe=674DA9AD"
+              src="https://scontent.fmnl25-1.fna.fbcdn.net/v/t39.30808-6/467871059_1650737599131857_3799183366586760531_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=k2w_jQsFjrEQ7kNvgGvWUl8&_nc_zt=23&_nc_ht=scontent.fmnl25-1.fna&_nc_gid=Axw-QrMgwq4yzt31mUM6_3q&oh=00_AYAHTEJl63MFf8pcokLggW5Sx6UPPJkMt36nrIxSXl3Zhg&oe=675408ED"
               alt="Naga College Foundation Logo"
               style={{
                 width: "100px",
