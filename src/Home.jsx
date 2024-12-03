@@ -21,8 +21,7 @@ const Home = () => {
 
       <div style={styles.content}>
         <img
-          src="https://scontent.fmnl8-2.fna.fbcdn.net/v/t39.30808-6/467898436_1650737662465184_6430505723355916623_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGSqrypalw8HvSJvjBClCj5DjJ7PDpS7h0OMns8OlLuHYIV2i_NFT0dMnejb1y0ZPvDauobnT4Vah08pEZeF5z9&_nc_ohc=9BsDFufUmDYQ7kNvgHqtRzi&_nc_zt=23&_nc_ht=scontent.fmnl8-2.fna&_nc_gid=Afk5aLq3ayUO_lhi2vtJh6e&oh=00_AYBIx0VD9icstPf0F62P83eIS0u_63ilq55XUgUPIO-CLA&oe=674D941E" 
-          alt="Profile"
+          src="https://scontent.fmnl25-2.fna.fbcdn.net/v/t39.30808-6/467898436_1650737662465184_6430505723355916623_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=GKRBQ3gD954Q7kNvgGkP5WT&_nc_zt=23&_nc_ht=scontent.fmnl25-2.fna&_nc_gid=Atv182cdcGHk-dhmrY2_K2k&oh=00_AYArAuCPIclnNR69TlreCtUFgAl4CP-lCOvX2GdA6HmQAQ&oe=67542B9E"
           style={styles.image}
         />
         <div style={styles.textContainer}>
