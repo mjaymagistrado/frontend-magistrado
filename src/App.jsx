@@ -95,29 +95,32 @@ function App() {
 
 const navbarStyles = {
   navbar: {
-    backgroundColor: '#333',
-    padding: '10px 0',
-    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+    background: 'linear-gradient(90deg, rgba(255, 87, 34, 1) 0%, rgba(255, 193, 7, 1) 100%)', // Gradient background
+    padding: '15px 0',
+    boxShadow: '0 6px 12px rgba(0, 0, 0, 0.1)',
+    fontFamily: 'Arial, sans-serif', // Elegant font family
   },
   brand: {
-    color: '#FFD700',
+    color: '#ffffff',
     fontWeight: 'bold',
-    fontSize: '24px',
+    fontSize: '26px',
     textDecoration: 'none',
     transition: 'color 0.3s ease',
   },
   navLink: {
-    color: '#e2e2e2',
+    color: '#ffffff',
     fontWeight: 'bold',
-    margin: '0 15px',
+    margin: '0 20px',
     fontSize: '18px',
     textDecoration: 'none',
     position: 'relative',
     transition: 'color 0.3s ease, transform 0.3s ease',
   },
   navLinkHover: {
-    color: '#FFD700',
-    transform: 'scale(1.1)',
+    color: '#FFEB3B', // Yellow color for hover
+    transform: 'scale(1.1)', // Slightly enlarge the text
+    textDecoration: 'underline', // Add underline on hover
+    textDecorationColor: '#FFEB3B', // Match underline with the hover color
   },
 };
 
