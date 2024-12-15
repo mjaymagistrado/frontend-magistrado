@@ -4,27 +4,27 @@ const Hobbies = () => {
   const hobbies = [
     {
       title: "Reading",
-      description: "I love exploring new worlds and ideas through books and articles.",
+      description: "Explore new worlds and ideas through books, articles, and more.",
       icon: "📚",
     },
     {
       title: "Gaming",
-      description: "I enjoy playing video games to relax and have fun with friends.",
+      description: "Relax and challenge yourself with video games, either solo or with friends.",
       icon: "🎮",
     },
     {
       title: "Cooking",
-      description: "Experimenting in the kitchen and trying out new recipes is a passion.",
+      description: "Try out new recipes and experiment in the kitchen.",
       icon: "🍳",
     },
     {
       title: "Sports",
-      description: "Sports keep me active and motivated, offering a fun way to challenge myself and stay fit.",
+      description: "Stay active and motivated while challenging yourself physically.",
       icon: "🏐",
     },
     {
       title: "Photography",
-      description: "Capturing special moments and beautiful scenery is something I love.",
+      description: "Capture the beauty around you through the lens of a camera.",
       icon: "📷",
     },
   ];
@@ -33,17 +33,18 @@ const Hobbies = () => {
     <div
       style={{
         textAlign: "center",
-        padding: "40px",
-        background: "linear-gradient(135deg, #f5f7fa, #c3cfe2)",
+        padding: "50px",
+        background: "linear-gradient(135deg, #3b3b3b, #2c2c2c, #1a1a1a)",
         minHeight: "100vh",
+        color: "#F0F0F0",
       }}
     >
       <h1
         style={{
-          fontSize: "36px",
-          color: "#333",
-          marginBottom: "20px",
-          textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
+          fontSize: "40px",
+          color: "#FFD700",
+          marginBottom: "40px",
+          textShadow: "3px 3px 6px rgba(0, 0, 0, 0.3)",
         }}
       >
         My Hobbies
@@ -53,56 +54,59 @@ const Hobbies = () => {
           display: "flex",
           flexWrap: "wrap",
           justifyContent: "center",
-          gap: "20px",
+          gap: "30px",
+          animation: "fadeIn 1s ease-in-out",
         }}
       >
         {hobbies.map((hobby, index) => (
           <div
             key={index}
             style={{
-              background: "#fff",
+              background: "#333",
               borderRadius: "12px",
-              boxShadow: "0 6px 12px rgba(0, 0, 0, 0.15)",
               width: "240px",
-              padding: "20px",
+              padding: "25px",
               textAlign: "center",
-              transition: "transform 0.3s, box-shadow 0.3s",
+              boxShadow: "0 8px 20px rgba(0, 0, 0, 0.3)",
+              transition: "all 0.3s ease",
               cursor: "pointer",
             }}
             onMouseEnter={(e) => {
               e.currentTarget.style.transform = "scale(1.05)";
               e.currentTarget.style.boxShadow =
-                "0 8px 16px rgba(0, 0, 0, 0.25)";
+                "0 12px 24px rgba(0, 0, 0, 0.4)";
             }}
             onMouseLeave={(e) => {
               e.currentTarget.style.transform = "scale(1)";
               e.currentTarget.style.boxShadow =
-                "0 6px 12px rgba(0, 0, 0, 0.15)";
+                "0 8px 20px rgba(0, 0, 0, 0.3)";
             }}
           >
             <div
               style={{
                 fontSize: "50px",
-                marginBottom: "15px",
-                color: "#4c4c4c",
+                marginBottom: "20px",
+                color: "#FFD700",
               }}
             >
               {hobby.icon}
             </div>
             <h2
               style={{
-                fontSize: "22px",
-                color: "#444",
+                fontSize: "24px",
+                color: "#FFD700",
                 margin: "10px 0",
+                fontWeight: "bold",
               }}
             >
               {hobby.title}
             </h2>
             <p
               style={{
-                fontSize: "14px",
-                color: "#666",
-                lineHeight: "1.6",
+                fontSize: "16px",
+                color: "#D1D1D1",
+                lineHeight: "1.5",
+                marginBottom: "15px",
               }}
             >
               {hobby.description}
