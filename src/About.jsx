@@ -4,49 +4,35 @@ const About = () => {
   return (
     <div
       style={{
-        padding: "50px 20px",
+        padding: "60px 20px",
         minHeight: "100vh",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        animation: "backgroundChange 10s infinite alternate", 
+        background: "linear-gradient(135deg, #1a1a1a, #2c2c2c)", // Darker gradient for a sleek feel
+        color: "#E0E0E0", // Consistent light text color for readability
       }}
     >
-      <style>
-        {`
-          @keyframes backgroundChange {
-            0% {
-              background: linear-gradient(135deg, #B0BEC5, #E0E0E0); /* Gray to White */
-            }
-            50% {
-              background: linear-gradient(135deg, #E0E0E0, #FAFAFA); /* White to Dirty White */
-            }
-            100% {
-              background: linear-gradient(135deg, #FAFAFA, #B0BEC5); /* Dirty White to Gray */
-            }
-          }
-        `}
-      </style>
-
       <div
         style={{
-          background: "#1c1c1c", 
-          padding: "40px",
-          borderRadius: "15px",
-          boxShadow: "0 6px 15px rgba(0, 0, 0, 0.6)", 
-          maxWidth: "800px",
+          background: "#2c2c2c",
+          padding: "40px 50px",
+          borderRadius: "20px",
+          boxShadow: "0 6px 20px rgba(0, 0, 0, 0.3)",
+          maxWidth: "900px",
           width: "100%",
           textAlign: "center",
+          color: "#E0E0E0",
         }}
       >
         <h1
           style={{
-            fontSize: "36px",
-            color: "#FFD700", 
+            fontSize: "42px",
+            color: "#FFD700", // Gold color for consistency and emphasis
             marginBottom: "20px",
             fontWeight: "bold",
             textTransform: "uppercase",
-            textShadow: "2px 2px 4px rgba(255, 255, 255, 0.1)", 
+            textShadow: "2px 2px 6px rgba(255, 215, 0, 0.6)", // Glowing gold effect
           }}
         >
           About Me
@@ -55,29 +41,33 @@ const About = () => {
         <p
           style={{
             fontSize: "18px",
-            color: "#e0e0e0", 
+            color: "#e0e0e0", // Light gray text color
             lineHeight: "1.8",
-            marginBottom: "20px",
+            marginBottom: "30px",
+            textAlign: "left", // Aligned text for better readability
+            letterSpacing: "0.5px", // Slight letter spacing for cleaner look
           }}
         >
-          My name is <strong>MJ Magistrado</strong>, and I am a 2nd-year college
-          student pursuing a <strong>Computer Science</strong> degree. Born on{" "}
-          <strong>March 8, 2004</strong>, and currently residing on{" "}
-          <strong>Caplihan Street, Calauag, Naga City</strong>, I am passionate
-          about technology and eager to expand my knowledge and skills in the
-          field of computer science.
+          Hello! I'm <strong>MJ Magistrado</strong>, a passionate <strong>Computer Science</strong>
+          student currently in my second year at university. I was born on{" "}
+          <strong>March 8, 2004</strong> and reside in <strong>Caplihan Street, Calauag, Naga City</strong>.
+          Technology is my greatest passion, and I am driven to expand my knowledge and skill set
+          within the field of computer science.
         </p>
+
         <p
           style={{
             fontSize: "18px",
-            color: "#c0c0c0", 
+            color: "#c0c0c0", // Slightly lighter text for contrast
             lineHeight: "1.8",
+            textAlign: "left", // Left-align for a more professional feel
+            letterSpacing: "0.5px",
           }}
         >
-          As a dedicated student, I am committed to my academic journey and
-          constantly strive to learn new technologies and solve complex
-          problems. I'm excited to apply what I've learned to real-world
-          projects and advance my career in technology.
+          As a dedicated and driven student, I am committed to both my academic and personal
+          growth. I constantly seek to learn new technologies, solve complex problems, and apply my
+          knowledge to real-world challenges. I am excited to embark on a career in technology and
+          contribute to innovative projects that make an impact.
         </p>
       </div>
     </div>
