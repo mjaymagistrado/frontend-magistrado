@@ -13,7 +13,7 @@ const Home = () => {
           </span>
         </h1>
         <p style={styles.subHeading}>
-          Computer Science Student & Web Developer
+          Computer Science Student
         </p>
         <h3 style={styles.text}>
           Welcome to my personal portfolio! I’m passionate about creating
