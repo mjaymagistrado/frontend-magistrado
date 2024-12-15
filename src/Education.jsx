@@ -4,13 +4,13 @@ const Education = () => {
   return (
     <div
       style={{
-        padding: "50px 20px",
+        padding: "60px 20px",
         minHeight: "100vh",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        background: "linear-gradient(135deg, #B0BEC5, #E0E0E0, #FAFAFA)", 
-        animation: "backgroundChange 10s infinite alternate", 
+        background: "linear-gradient(135deg, #3a3a3a, #121212)",
+        color: "#F5F5F5",
       }}
     >
       <div
@@ -18,16 +18,16 @@ const Education = () => {
           maxWidth: "900px",
           width: "100%",
           textAlign: "center",
-          padding: "20px",
-          backgroundColor: "#fff", 
-          borderRadius: "10px",
-          boxShadow: "0 6px 20px rgba(0, 0, 0, 0.1)", 
+          padding: "40px",
+          backgroundColor: "#222222",
+          borderRadius: "12px",
+          boxShadow: "0 10px 30px rgba(0, 0, 0, 0.2)",
         }}
       >
         <h1
           style={{
-            fontSize: "36px",
-            color: "#333",
+            fontSize: "40px",
+            color: "#FFD700", // Gold accent color
             marginBottom: "30px",
             fontWeight: "bold",
             textTransform: "uppercase",
@@ -43,29 +43,41 @@ const Education = () => {
             flexDirection: "column",
             gap: "30px",
             paddingBottom: "30px",
+            marginTop: "40px",
           }}
         >
-         
+          {/* Calauag Elementary School */}
           <div
             style={{
-              backgroundColor: "#f9f9f9", 
-              padding: "20px",
-              borderRadius: "8px",
-              boxShadow: "0 4px 12px rgba(0, 0, 0, 0.15)", 
+              backgroundColor: "#2a2a2a",
+              padding: "30px",
+              borderRadius: "10px",
+              boxShadow: "0 6px 12px rgba(0, 0, 0, 0.15)",
               display: "flex",
               alignItems: "center",
               gap: "20px",
+              transition: "transform 0.3s, box-shadow 0.3s",
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = "scale(1.05)";
+              e.currentTarget.style.boxShadow =
+                "0 12px 24px rgba(0, 0, 0, 0.25)";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = "scale(1)";
+              e.currentTarget.style.boxShadow =
+                "0 6px 12px rgba(0, 0, 0, 0.15)";
             }}
           >
             <img
-              src="https://scontent.fmnl25-5.fna.fbcdn.net/v/t39.30808-6/467869311_1650737609131856_769701457792824986_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=xcS_bOYNWRkQ7kNvgHI-SOp&_nc_zt=23&_nc_ht=scontent.fmnl25-5.fna&_nc_gid=AIP943MaEWEbnZC2vRVs62r&oh=00_AYByzgPBod_VvZF2muOtgeO0JVdjXwYE60Vj--9-PxbtpQ&oe=67540880"
+              src="https://scontent.fwnp1-1.fna.fbcdn.net/v/t39.30808-6/467869311_1650737609131856_769701457792824986_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGWlA706Txb_zjmAZwwFMEgaTsb3LRhy9FpOxvctGHL0XTj2a-QKWY9kW9cC7EwQbFAhS6COQ8PGc8zysNVlynE&_nc_ohc=LHS2exVUeSsQ7kNvgHmacCM&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&_nc_gid=AlpuUq0cszY2jW8hH2x4ZKT&oh=00_AYB4e2H-KQZxxId6bsEKFG5KKMkFZrrp9FoPm69RFwhjng&oe=67605680"
               alt="Calauag Elementary Logo"
               style={{
                 width: "100px",
                 height: "100px",
                 borderRadius: "50%",
                 objectFit: "cover",
-                border: "3px solid #FFD700", 
+                border: "3px solid #FFD700",
               }}
             />
             <div>
@@ -73,7 +85,7 @@ const Education = () => {
                 style={{
                   fontSize: "24px",
                   fontWeight: "bold",
-                  color: "#333",
+                  color: "#FFD700",
                   marginBottom: "10px",
                 }}
               >
@@ -82,7 +94,7 @@ const Education = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  color: "#777",
+                  color: "#ccc",
                   margin: "5px 0",
                 }}
               >
@@ -91,31 +103,41 @@ const Education = () => {
               <p
                 style={{
                   fontSize: "16px",
-                  color: "#555",
+                  color: "#bbb",
                   lineHeight: "1.6",
+                  marginBottom: "10px",
                 }}
               >
-                I completed my elementary education at Calauag Elementary
-                School, where I developed a strong foundation in both academics
-                and extracurricular activities.
+                I completed my elementary education at Calauag Elementary School, where I developed a strong foundation in both academics and extracurricular activities.
               </p>
             </div>
           </div>
 
-         
+          {/* Camarines Sur National High School */}
           <div
             style={{
-              backgroundColor: "#f9f9f9",
-              padding: "20px",
-              borderRadius: "8px",
-              boxShadow: "0 4px 12px rgba(0, 0, 0, 0.15)",
+              backgroundColor: "#2a2a2a",
+              padding: "30px",
+              borderRadius: "10px",
+              boxShadow: "0 6px 12px rgba(0, 0, 0, 0.15)",
               display: "flex",
               alignItems: "center",
               gap: "20px",
+              transition: "transform 0.3s, box-shadow 0.3s",
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = "scale(1.05)";
+              e.currentTarget.style.boxShadow =
+                "0 12px 24px rgba(0, 0, 0, 0.25)";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = "scale(1)";
+              e.currentTarget.style.boxShadow =
+                "0 6px 12px rgba(0, 0, 0, 0.15)";
             }}
           >
             <img
-              src="https://scontent.fmnl25-4.fna.fbcdn.net/v/t39.30808-6/468096699_1650737602465190_2981289244235767500_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=epnzsuinXbUQ7kNvgF3L4Q7&_nc_zt=23&_nc_ht=scontent.fmnl25-4.fna&_nc_gid=ADHSg1Lggo8cz1OJDrf1yVh&oh=00_AYC0Zwmj-3UZjj2jINghsOImAjFED-gMVE6NXN_ISiAygg&oe=67541D90"
+              src="https://scontent.fwnp1-1.fna.fbcdn.net/v/t39.30808-6/468096699_1650737602465190_2981289244235767500_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeF8MHdhfc2X5tpYqlWMBOQpXwaGOJaHQVxfBoY4lodBXG165_UBy94X_t1zfv289jtLp9rZJdv_Z9pjgqXCayBQ&_nc_ohc=1bstE1rhw-4Q7kNvgFqc0vO&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&_nc_gid=ALxzZ22ht-st4CpXcWKD_C5&oh=00_AYAPVcfwHxd5as998h5jOaUJZLipiNkagcB2RILcWDD2jw&oe=67606B90"
               alt="Camarines Sur National High School Logo"
               style={{
                 width: "100px",
@@ -130,7 +152,7 @@ const Education = () => {
                 style={{
                   fontSize: "24px",
                   fontWeight: "bold",
-                  color: "#333",
+                  color: "#FFD700",
                   marginBottom: "10px",
                 }}
               >
@@ -139,7 +161,7 @@ const Education = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  color: "#777",
+                  color: "#ccc",
                   margin: "5px 0",
                 }}
               >
@@ -148,31 +170,41 @@ const Education = () => {
               <p
                 style={{
                   fontSize: "16px",
-                  color: "#555",
+                  color: "#bbb",
                   lineHeight: "1.6",
+                  marginBottom: "10px",
                 }}
               >
-                During my high school years, I developed a deeper interest in
-                technology and participated in coding clubs, which helped me
-                pursue a degree in Computer Science.
+                During my high school years, I developed a deeper interest in technology and participated in coding clubs, which helped me pursue a degree in Computer Science.
               </p>
             </div>
           </div>
 
-          
+          {/* Naga College Foundation */}
           <div
             style={{
-              backgroundColor: "#f9f9f9",
-              padding: "20px",
-              borderRadius: "8px",
-              boxShadow: "0 4px 12px rgba(0, 0, 0, 0.15)",
+              backgroundColor: "#2a2a2a",
+              padding: "30px",
+              borderRadius: "10px",
+              boxShadow: "0 6px 12px rgba(0, 0, 0, 0.15)",
               display: "flex",
               alignItems: "center",
               gap: "20px",
+              transition: "transform 0.3s, box-shadow 0.3s",
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = "scale(1.05)";
+              e.currentTarget.style.boxShadow =
+                "0 12px 24px rgba(0, 0, 0, 0.25)";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = "scale(1)";
+              e.currentTarget.style.boxShadow =
+                "0 6px 12px rgba(0, 0, 0, 0.15)";
             }}
           >
             <img
-              src="https://scontent.fmnl25-1.fna.fbcdn.net/v/t39.30808-6/467871059_1650737599131857_3799183366586760531_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=k2w_jQsFjrEQ7kNvgGvWUl8&_nc_zt=23&_nc_ht=scontent.fmnl25-1.fna&_nc_gid=Axw-QrMgwq4yzt31mUM6_3q&oh=00_AYAHTEJl63MFf8pcokLggW5Sx6UPPJkMt36nrIxSXl3Zhg&oe=675408ED"
+              src="https://scontent.fwnp1-1.fna.fbcdn.net/v/t39.30808-6/467871059_1650737599131857_3799183366586760531_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEezmPZWRf2kY9STvMA21yPS8UdL3fBKuVLxR0vd8Eq5bXTXUrCvz4gmfB5zxy3KL5CL2Q7nfaQFCBCjslXc2cq&_nc_ohc=e_gj_z6NLWQQ7kNvgGelXlL&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&_nc_gid=A_n71NrneA47lSz5tGLiO5l&oh=00_AYDjyv7okBArNFyUfj8WkOoiSoL7nfdDClYEFYu8_Gws5A&oe=676056ED"
               alt="Naga College Foundation Logo"
               style={{
                 width: "100px",
@@ -187,7 +219,7 @@ const Education = () => {
                 style={{
                   fontSize: "24px",
                   fontWeight: "bold",
-                  color: "#333",
+                  color: "#FFD700",
                   marginBottom: "10px",
                 }}
               >
@@ -196,7 +228,7 @@ const Education = () => {
               <p
                 style={{
                   fontSize: "18px",
-                  color: "#777",
+                  color: "#ccc",
                   margin: "5px 0",
                 }}
               >
@@ -205,34 +237,17 @@ const Education = () => {
               <p
                 style={{
                   fontSize: "16px",
-                  color: "#555",
+                  color: "#bbb",
                   lineHeight: "1.6",
+                  marginBottom: "10px",
                 }}
               >
-                I am currently pursuing a Bachelor's degree in Computer
-                Science at Naga College Foundation Inc., with a focus on
-                programming, data structures, and web development.
+                I am currently pursuing a Bachelor's degree in Computer Science at Naga College Foundation Inc., with a focus on programming, data structures, and web development.
               </p>
             </div>
           </div>
         </div>
       </div>
-
-      <style>
-        {`
-          @keyframes backgroundChange {
-            0% {
-              background-color: #B0BEC5; /* Gray */
-            }
-            50% {
-              background-color: #FAFAFA; /* Dirty White */
-            }
-            100% {
-              background-color: #E0E0E0; /* White */
-            }
-          }
-        `}
-      </style>
     </div>
   );
 };
