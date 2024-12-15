@@ -15,10 +15,10 @@ const Home = () => {
         <p style={styles.subHeading}>
           Computer Science Student & Web Developer
         </p>
-        <p style={styles.text}>
+        <h3 style={styles.text}>
           Welcome to my personal portfolio! I’m passionate about creating
           visually appealing and user-friendly websites.
-        </p>
+        </h3>
         <a href="/About" style={styles.button}>
           Learn More About Me
         </a>
