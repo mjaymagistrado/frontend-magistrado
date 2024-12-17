@@ -40,7 +40,7 @@ const Home = () => {
       {/* Center Section - Image */}
       <div style={styles.imageSection}>
         <img
-          src="https://scontent.fwnp1-1.fna.fbcdn.net/v/t39.30808-6/467898436_1650737662465184_6430505723355916623_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGSqrypalw8HvSJvjBClCj5DjJ7PDpS7h0OMns8OlLuHYIV2i_NFT0dMnejb1y0ZPvDauobnT4Vah08pEZeF5z9&_nc_ohc=bigG-Z7USgIQ7kNvgE6SGAT&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&_nc_gid=A3zSASaoKLvBneoyXBCdV1s&oh=00_AYDjH3lZDMZj-RWnwwfAaScbre8t_igdULLwVK5aYe85gQ&oe=6760799E"
+          src="https://scontent.fmnl33-2.fna.fbcdn.net/v/t39.30808-6/467898436_1650737662465184_6430505723355916623_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGSqrypalw8HvSJvjBClCj5DjJ7PDpS7h0OMns8OlLuHYIV2i_NFT0dMnejb1y0ZPvDauobnT4Vah08pEZeF5z9&_nc_ohc=JlUE02fGjz0Q7kNvgGCHLe5&_nc_zt=23&_nc_ht=scontent.fmnl33-2.fna&_nc_gid=AA6p-twUTxs9XvD0tERVIsj&oh=00_AYACYLYzJEMZ0Hqvuazl066ElrG8adAOMLCOUZqcSLShkA&oe=6766D8DE"
           alt="Profile"
           style={styles.image}
         />
