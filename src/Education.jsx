@@ -70,7 +70,7 @@ const Education = () => {
             }}
           >
             <img
-              src="https://scontent.fwnp1-1.fna.fbcdn.net/v/t39.30808-6/467869311_1650737609131856_769701457792824986_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGWlA706Txb_zjmAZwwFMEgaTsb3LRhy9FpOxvctGHL0XTj2a-QKWY9kW9cC7EwQbFAhS6COQ8PGc8zysNVlynE&_nc_ohc=LHS2exVUeSsQ7kNvgHmacCM&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&_nc_gid=AlpuUq0cszY2jW8hH2x4ZKT&oh=00_AYB4e2H-KQZxxId6bsEKFG5KKMkFZrrp9FoPm69RFwhjng&oe=67605680"
+              src="https://scontent.fmnl33-2.fna.fbcdn.net/v/t39.30808-6/467869311_1650737609131856_769701457792824986_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGWlA706Txb_zjmAZwwFMEgaTsb3LRhy9FpOxvctGHL0XTj2a-QKWY9kW9cC7EwQbFAhS6COQ8PGc8zysNVlynE&_nc_ohc=ZuHtMFZyK6oQ7kNvgG0ymC1&_nc_zt=23&_nc_ht=scontent.fmnl33-2.fna&_nc_gid=AQp93iP4Nz-D4d2x2UXvdxX&oh=00_AYCyC9qS_84b8F2oEw08fRLNKY1sriQl7ItnU3lyYPfiig&oe=6766EE00"
               alt="Calauag Elementary Logo"
               style={{
                 width: "100px",
@@ -137,7 +137,7 @@ const Education = () => {
             }}
           >
             <img
-              src="https://scontent.fwnp1-1.fna.fbcdn.net/v/t39.30808-6/468096699_1650737602465190_2981289244235767500_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeF8MHdhfc2X5tpYqlWMBOQpXwaGOJaHQVxfBoY4lodBXG165_UBy94X_t1zfv289jtLp9rZJdv_Z9pjgqXCayBQ&_nc_ohc=1bstE1rhw-4Q7kNvgFqc0vO&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&_nc_gid=ALxzZ22ht-st4CpXcWKD_C5&oh=00_AYAPVcfwHxd5as998h5jOaUJZLipiNkagcB2RILcWDD2jw&oe=67606B90"
+              src="https://scontent.fmnl33-6.fna.fbcdn.net/v/t39.30808-6/468096699_1650737602465190_2981289244235767500_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeF8MHdhfc2X5tpYqlWMBOQpXwaGOJaHQVxfBoY4lodBXG165_UBy94X_t1zfv289jtLp9rZJdv_Z9pjgqXCayBQ&_nc_ohc=reCvNy_LcSAQ7kNvgHfirx0&_nc_zt=23&_nc_ht=scontent.fmnl33-6.fna&_nc_gid=AybioqyKAJWr5wA-T9QnX4b&oh=00_AYB1bWLhDMZ_28bTrPqO_Z_ZMdHvDUTB-HPjlxnhwe7HfA&oe=6766CAD0"
               alt="Camarines Sur National High School Logo"
               style={{
                 width: "100px",
@@ -204,7 +204,7 @@ const Education = () => {
             }}
           >
             <img
-              src="https://scontent.fwnp1-1.fna.fbcdn.net/v/t39.30808-6/467871059_1650737599131857_3799183366586760531_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEezmPZWRf2kY9STvMA21yPS8UdL3fBKuVLxR0vd8Eq5bXTXUrCvz4gmfB5zxy3KL5CL2Q7nfaQFCBCjslXc2cq&_nc_ohc=e_gj_z6NLWQQ7kNvgGelXlL&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&_nc_gid=A_n71NrneA47lSz5tGLiO5l&oh=00_AYDjyv7okBArNFyUfj8WkOoiSoL7nfdDClYEFYu8_Gws5A&oe=676056ED"
+              src="https://scontent.fmnl33-1.fna.fbcdn.net/v/t39.30808-6/467871059_1650737599131857_3799183366586760531_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEezmPZWRf2kY9STvMA21yPS8UdL3fBKuVLxR0vd8Eq5bXTXUrCvz4gmfB5zxy3KL5CL2Q7nfaQFCBCjslXc2cq&_nc_ohc=tuHnGyQc8sMQ7kNvgF9T2DM&_nc_zt=23&_nc_ht=scontent.fmnl33-1.fna&_nc_gid=An9kaPhFp2OFXkcKbQUgNEm&oh=00_AYCi3g0G8mJ-faHTD8eorMSaqmgH4x2zRSUX-T3O-qGxgw&oe=6766EE6D"
               alt="Naga College Foundation Logo"
               style={{
                 width: "100px",
